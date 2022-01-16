@@ -1,0 +1,12 @@
+# master_ip: the ip address of your master learner
+master_ip:
+  127.0.0.1
+
+# pub_sub_port: the port the master learner publish params to all learners
+# push_pull_port: the port worker learners push parameters to the master learner
+# make sure the pub_port and push_port are not used in all leaner machines
+pub_sub_port:
+  9527
+
+push_pull_port:
+  9528
